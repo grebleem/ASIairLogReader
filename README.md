@@ -6,6 +6,8 @@ guiding quality, every exposure, a merged event log and the equipment settings.
 
 Pure Python 3, standard library only. Nothing to `pip install`.
 
+![Session overview](docs/screenshots/overview.png)
+
 ## Requirements
 
 * Python 3.9 or newer (`python3 --version` to check).
@@ -108,6 +110,30 @@ midnight stays together and a daytime flat/dark run is its own session.
   between guiding sections.
 
 Themes: dark, light and a red night-vision mode (top right).
+
+## Screenshots
+
+**All sessions**: integration per target, guiding RMS per night, focus vs temperature.
+
+![All sessions](docs/screenshots/all-sessions.png)
+
+**Autofocus**: focus position and EAF temperature through the night, every run with its V-curve.
+
+![Autofocus](docs/screenshots/autofocus.png)
+
+**Guiding**: calibrations, RMS per guiding section, and the error trace of the selected section.
+
+![Guiding](docs/screenshots/guiding.png)
+
+**Frames**: every exposure with the guiding RMS measured during it.
+
+![Frames](docs/screenshots/frames.png)
+
+**Log** and **Equipment**: the merged Autorun + PHD2 event stream, and the guider and mount settings.
+
+![Log](docs/screenshots/log.png)
+
+![Equipment](docs/screenshots/equipment.png)
 
 ## Troubleshooting
 
